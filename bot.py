@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ChatMemberHandler, ContextTypes
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")  # ستحدد التوكن في Render لاحقاً
+TOKEN = os.getenv("7583533902:AAGZyy2a0grPRIig8VklAzDjGAvMlkyYLf4")  # ستحدد التوكن في Render لاحقاً
 
 CHANNEL_USERNAME = "P_U_B_G_025"  # بدون @
 GROUP_ID = -1002090285064  # تأكد أنه نفس آيدي مجموعتك
