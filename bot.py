@@ -1,10 +1,5 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
-import os
-from dotenv import load_dotenv
-
-# تحميل المتغيرات البيئية من ملف .env
-load_dotenv()
 
 # وضع التوكن مباشرة في الكود
 TOKEN = "7583533902:AAGZyy2a0grPRIig8VklAzDjGAvMlkyYLf4"  # ضع التوكن هنا مباشرة
