@@ -1,8 +1,13 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ChatMemberHandler, ContextTypes
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 import os
+from dotenv import load_dotenv
 
-TOKEN = os.getenv("7583533902:AAGZyy2a0grPRIig8VklAzDjGAvMlkyYLf4")  # ستحدد التوكن في Render لاحقاً
+# تحميل المتغيرات البيئية من ملف .env
+load_dotenv()
+
+# وضع التوكن مباشرة في الكود
+TOKEN = "7583533902:AAGZyy2a0grPRIig8VklAzDjGAvMlkyYLf4"  # ضع التوكن هنا مباشرة
 
 CHANNEL_USERNAME = "P_U_B_G_025"  # بدون @
 GROUP_ID = -1002090285064  # تأكد أنه نفس آيدي مجموعتك
